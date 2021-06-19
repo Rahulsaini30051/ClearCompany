@@ -1,0 +1,22 @@
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.pagetitle{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    padding: 80px;
+    border-radius: 50px;
+    color: white;
+}
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #999;
+}
